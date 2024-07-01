@@ -81,37 +81,37 @@ CREATE TABLE DersProgrami (
 -- Bölümler Tablosuna Veri Ekleme
 INSERT INTO Bolumler (BolumAdi)
 VALUES 
-(N'Bilgisayar Mühendisliði'),
-(N'Elektrik-Elektronik Mühendisliði'),
-(N'Makine Mühendisliði');
+('Bilgisayar Mühendisliði'),
+('Elektrik-Elektronik Mühendisliði'),
+('Makine Mühendisliði');
 
 -- Öðretmenler Tablosuna Veri Ekleme
 INSERT INTO Ogretmenler (Isim, Soyisim, Email)
 VALUES 
-(N'Ahmet', N'Demir', 'kerem.kýlýc@example.com'),
-(N'Aylin', N'Kaya', 'zeynep.kaya@example.com'),
-(N'Emre', N'Tuna', 'eren.tuna@example.com');
+('Ahmet', 'Demir', 'kerem.kýlýc@example.com'),
+('Aylin', 'Kaya', 'zeynep.kaya@example.com'),
+('Emre', 'Tuna', 'eren.tuna@example.com');
 
 -- Dersler Tablosuna Veri Ekleme
 INSERT INTO Dersler (DersAdi, Kredi, OgretmenID)
 VALUES 
-(N'Algoritmalar', 4, 1),
-(N'Elektrik Devreleri', 3, 2),
-(N'Termodinamik', 3, 3);
+('Algoritmalar', 4, 1),
+('Elektrik Devreleri', 3, 2),
+('Termodinamik', 3, 3);
 
 -- Sýnýflar Tablosuna Veri Ekleme
 INSERT INTO Siniflar (SinifAdi)
 VALUES 
-(N'A1'),
-(N'B2'),
-(N'C3');
+('A1'),
+('B2'),
+('C3');
 
 -- Öðrenciler Tablosuna Veri Ekleme
 INSERT INTO Ogrenciler (Isim, Soyisim, DogumTarihi, Email, BolumID)
 VALUES 
-(N'Nisa', N'Yýlmaz', '2000-05-10', 'nisa.yilmaz@example.com', 1),
-(N'Ali', N'Kara', '1999-08-15', 'ali.kara@example.com', 2),
-(N'Alperen', N'Þahin', '2001-12-20', 'alperen.sahin@example.com', 3);
+('Nisa', 'Yýlmaz', '2000-05-10', 'nisa.yilmaz@example.com', 1),
+('Ali', 'Kara', '1999-08-15', 'ali.kara@example.com', 2),
+('Alperen', 'Þahin', '2001-12-20', 'alperen.sahin@example.com', 3);
 
 -- Kayýtlar Tablosuna Veri Ekleme
 INSERT INTO Kayitlar (OgrenciID, DersID, KayitTarihi)
