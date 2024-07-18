@@ -88,9 +88,9 @@ VALUES
 -- Öðretmenler Tablosuna Veri Ekleme
 INSERT INTO Ogretmenler (Isim, Soyisim, Email)
 VALUES 
-('Ahmet', 'Demir', 'kerem.kýlýc@example.com'),
-('Aylin', 'Kaya', 'zeynep.kaya@example.com'),
-('Emre', 'Tuna', 'eren.tuna@example.com');
+('Ahmet', 'Demir', 'ahmet.demir@example.com'),
+('Aylin', 'Kaya', 'aylin.kaya@example.com'),
+('Emre', 'Tuna', 'emre.tuna@example.com');
 
 -- Dersler Tablosuna Veri Ekleme
 INSERT INTO Dersler (DersAdi, Kredi, OgretmenID)
